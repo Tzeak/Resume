@@ -1,0 +1,181 @@
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.95]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Roshan}{Ramankutty}
+%\title{Resume}                               % optional, remove / comment the line if not wanted
+\address{762 Sycamore Creek Way}{Pleasanton, CA 94566}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(443)-4242-042}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+1~(510)-335-5498}                    % optional, remove / comment the line if not wanted
+\email{roshan@tzeak.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.tzeak.com}                         % optional, remove / comment the line if not wanted
+\extrainfo{LinkedIn: www.linkedin.com/in/tzeak}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+	\cventry{2012--2016}{Computer Science and Engineering}{Santa Clara University}{Santa Clara}{\textit{GPA:~3.1}}{Minor: Mathematics}  % arguments 3 to 6 can be left empty
+\subsection{Relevant Coursework}
+	\cvitem{}{Data Structures, Programming Languages (Pascal, Python, Scala, Scheme, Ruby, Prolog), Real-Time Systems, Numerical Analysis, Web Programming, Operating Systems, Networks, Compilers, Computer Graphics Course (Ohlone College)}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+%\section{Master thesis}
+%\cvitem{title}{\emph{Title}}
+%\cvitem{supervisors}{Supervisors}
+%\cvitem{description}{Short thesis abstract}
+\section{Relevant Experience}
+%\subsection{Vocational}
+	\cventry{2015--Present}{Senior Design Project Developer}{VillageTech Solutions}{Menlo Park, CA}{}{VillageTech Solutions is a social enterprise based in rural Nepal providing aid to Nepali schools. We're developing a user interface for Looma, VillageTech's frugal all-in-one computer.\newline{}%
+	Detailed achievements:%
+		\begin{itemize}%
+			\item Taught team how to use tools like LaTeX, git/github, and MongoDB
+			\item Organized bi-weekly team meetings and deliverables with VillageTech Solutions and the team
+			\item Learned HTML/CSS and Javascript to provide support for Web Engineers on the project. Resulted in teaching team modern web-design concepts like responsive web design.
+		\end{itemize}}
+	\cventry{June--November 2015}{Developer}{Idealyte, Inc.}{Santa Clara, CA}{}{Startup designing R\&D project management tool{}%
+		\begin{itemize}%
+			\item Designed unique media viewer for base platform, resulting in a significant and positive change in user interaction
+			\item Designed initial Black Box QA methodology, which allowed us to properly maintain and achieve goals in our sprint schedule.
+			\item Worked with MEAN Stack - MongoDB, Express.js, Angular, Node.js
+		\end{itemize}}
+
+	\cventry{2013--Present}{Vice President}{Association for Computing Machinery}{Santa Clara University}{}{{}%
+		\begin{itemize}%
+			\item Organized the first two SCU Hackathons in conjunction with social enterprises like San Jose's Community Technology Alliance, working with Microsoft, Google, and Western Digital.
+			\item Built chapter up from 10 students to over 200 active members
+			\item Established relationships with grad programs in UC Santa Barbara and UC Santa Cruz
+			\item Actively involved with ACM-W, the sister chapter that focuses on women's issues in the tech industry.
+		\end{itemize}
+	}
+
+\section{Projects and Additional Experience}
+	\cventry{2014--Present}{Undergraduate Research Assistant}{SCU Frugal Innovation Lab}{Santa Clara University}{}{
+			Currently developing a short string compression algorithm for social enterprises in Ghana. Using Flex: the Fast Lexcial Scanner, Android Studio, Java, and C++. \newline{}%
+	Detailed achievements:%
+		\begin{itemize}
+			\item Determined an ideal compression of up to 80\% smaller messages.
+			\item Learned about societal impact of technology in developing countries
+			\item Learned how to work remotely and how to organize work around the 8 hour time difference
+		\end{itemize}
+	}
+
+	\cventry{2015}{Grapevine}{Hack for the Homeless 2015}{Santa Clara University}{}{
+		\begin{itemize}
+		\item Used opportunity to learn new technlogies like Node.js and MongoDB to construct a mobile-first social network.
+		\end{itemize}
+	}
+
+	\cventry{2014--Present}{IT Senior Technician}{Academic Technology}{Santa Clara University}{}{
+		\begin{itemize}
+		\item Led workshops on how to fix problems with student computers, printers, and smart televisions.
+		\end{itemize}
+	}
+
+
+%\section{Languages}
+%\cvitemwithcomment{Language 1}{Skill level}{Comment}
+%\cvitemwithcomment{Language 2}{Skill level}{Comment}
+%\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Skills}
+	\cvitem{Languages}{C/C++, Java, Objective-C, Node.js}
+	\cvitem{Operating Systems}{Windows, OS X, iOS, Android, CentOS Linux}
+	\cvitem{Applications}{Vim, Flex: the Fast Lexical Scanner, Eclipse, Xcode, Adobe Illustrator}
+	\cvitem{Soft Skills}{Great at parties!}
+
+%\section{Interests}
+%\cvitem{hobby 1}{Description}
+%\cvitem{hobby 2}{Description}
+%\cvitem{hobby 3}{Description}
+
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%\clearpage
+\newpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+\date{January 01, 1984}
+\opening{Dear Sir or Madam,}
+\closing{Yours faithfully,}
+\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+Albert Einstein discovered that $e=mc^2$ in 1905.
+
+\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+
+\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
