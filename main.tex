@@ -3,8 +3,8 @@
 % moderncv themes
 \moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
@@ -49,12 +49,21 @@
 %\cvitem{description}{Short thesis abstract}
 \section{Relevant Experience}
 %\subsection{Vocational}
-	\cventry{August 2016--Present}{Associate Software Engineer}{LendingClub}{San Francisco, CA}{}{Lending Club is a peer-to-peer personal online loan service. Our mission is to make credit more affordable for borrowers and investing more rewarding by allowing individuals to invest in borrowers directly.{}%
+	\cventry{April 2015--Present}{Co-founder}{Tzeak, LLc}{Pleasanton, CA}{}{
+		\begin{itemize}
+			\item Run a small technology consultant company as a freelancer
+			\item Learned how to manage burn-rate of a company and maintain multiple project management suites
+			\item Current project: Implementing ML Platforms like Apache PredictionIO and Salesforce Einstein for supply chain management
+			\newline
+		\end{itemize}
+	}
+	\cventry{August 2016--November 2017}{Associate Software Engineer}{LendingClub}{San Francisco, CA}{}{Lending Club is a peer-to-peer personal online loan service. Our mission is to make credit more affordable for borrowers and investing more rewarding by allowing individuals to invest in borrowers directly.{}%
 		\begin{itemize}%
 			\item Built internal tools for the company to reduce developer burnout resulting in a reduction of on-call work by 20\% by volume
-			\item As a solo engineer, built multiple services to expand borrower acquisition channels by 1\% - providing credit for 1200 people per quarter and growing
-			\item Helped coordinate internal discussion group to encourage dialogues and cameraderie across the company
+			\item As a solo engineer, built multiple services aimed to expand borrower acquisition channels by 1\% - estimated value credit for 1200 people per quarter and growing
 			\item Coordinated with designers, security teams, and outside partners to help bring better credit card refinance tools to borrowers
+			\item Built a tool to manage Dev/QA automation for non-technical actors like the executive staff, designers, and Project Managers
+			\item Mentored new hires over the course of two weeks in pair-programming exercises, bringing our application to production within two sprints.
 			\newline
 		\end{itemize}
 	}
@@ -66,6 +75,8 @@
 			\newline
 		\end{itemize}
 	}
+
+\section{Projects and Additional Experience}
 	\cventry{2014--2016}{Undergraduate Research Assistant}{SCU Frugal Innovation Lab}{Santa Clara University}{}{
 			Developed a short string compression algorithm for social enterprises in Ghana. {}%
 		Detailed Achievements:%
@@ -82,29 +93,25 @@
 			\item Built chapter up from 10 students to over 200 active members
 			\item Established relationships with grad programs in UC Santa Barbara and UC Santa Cruz
 			\item Actively involved with ACM-W, the sister chapter that focuses on women's issues in the tech industry.
-			\newline
 		\end{itemize}
 	}
-
-\section{Projects and Additional Experience}
-	\cventry{February--Present 2017}{Volunteer}{CACE: Center for Civic Education}{}{}{
-		\begin{itemize}
-		\item Volunteer as a judge for We the People: a competitive civics competition
-		\item Helped Amador Valley High School reach fifth place at national competition in Washington, D.C.
-		\end{itemize}
-	}
+	%\cventry{February 2017--Present}{Volunteer}{CACE: Center for Civic Education}{San Francisco, CA}{}{
+	%	\begin{itemize}
+	%	\item Volunteer as a judge for We the People: a competitive civics competition
+	%	\item Helped Amador Valley High School reach fifth place at national competition in Washington, D.C.
+	%	\end{itemize}
+	%}
 	\cventry{June--November 2015}{Developer}{Idealyst, Inc.}{Santa Clara, CA}{}{Startup designing R\&D project management tool{}%
 		\begin{itemize}%
 			\item Designed unique media viewer for base platform, resulting in a significant and positive change in user interaction
 			\item Designed initial Black Box QA methodology, which allowed us to properly maintain and achieve goals in our sprint schedule.
-			\item Worked with MEAN Stack - MongoDB, Express.js, Angular, Node.js
 		\end{itemize}
 	}
 
 \section{Education}
 	\cventry{2012--2016}{Computer Science and Engineering}{Santa Clara University}{Santa Clara}{\textit{GPA:~3.1}}{Minor: Mathematics}  % arguments 3 to 6 can be left empty
-\subsection{Important Coursework}
-\cvitem{}{Sex, Theology and Relationships, Nietzsche and Life Affirmation, Feminist Theory, Women in Political Revolutions, Environmental History of the United States}
+%\subsection{Important Coursework}
+%\cvitem{}{Sex, Theology and Relationships, Nietzsche and Life Affirmation, Feminist Theory, Women in Political Revolutions, Environmental History of the United States}
 \subsection{Relevant Coursework}
 \cvitem{}{Data Structures, Programming Languages (Pascal, Python, Scala, Scheme, Ruby, Prolog), Real-Time Systems, Numerical Analysis, Web Programming, Operating Systems, Networks, Compilers, Computer Graphics Course (Ohlone College), Machine Learning Course (Coursera - currently enrolled)}
 %\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
@@ -116,9 +123,9 @@
 %\cvitemwithcomment{Language 3}{Skill level}{Comment}
 
 \section{Skills}
-	\cvitem{Languages}{C/C++, Java, Objective-C, PHP, MongoDB}
-	\cvitem{Operating Systems}{Windows, OS X, iOS, Android, CentOS Linux}
-	\cvitem{Applications}{Vim, Flex: the Fast Lexical Scanner, LaTeX, Xcode, Adobe Illustrator}
+	\cvitem{Languages}{C/C++, Java, Python, Swift, PHP, Oracle SQL, MongoDB}
+	%\cvitem{Operating Systems}{Windows, OS X, iOS, Android, CentOS Linux}
+	\cvitem{Applications}{Vim, Flex, LaTeX, Xcode, Adobe Illustrator}
 	\cvitem{Soft Skills}{Great at parties!}
 
 %\section{Interests}
@@ -160,29 +167,29 @@
 %\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
 
 %\clearpage
-\newpage
+%\newpage
 %-----       letter       ---------------------------------------------------------
 % recipient data
-\recipient{Khan Academy}{\\\\Mountain View, CA}
-\date{March 8, 2016}
-\opening{To whom it may concern,}
-\closing{Best,}
-\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-\makelettertitle
-
-My name is Roshan Ramankutty. I am a graduating senior at Santa Clara University studying Computer Science and Engineering and I'm looking for a Software Engineering internship this summer. It is a dream of mine to work in Software Engineering or Product/Content Design at Khan Academy. I may be a programmer, but I want to teach one day and I think Khan Academy leads the way in advancing education across the board. 
-
-I am confident that I am a good candidate for these positions because I have aimed to work in this space for some time - as a result, I have spent time working on projects that serve similar purposes to Khan Academy. As briefly mentioned in my resume, I'm working with a company to deploy educational services to spaces in rural Nepal. My experience working with this company has given me a strong understanding on how to work with others in larger engineering projects, as well as a strong understanding as to what constraints we work with when developing a product for a profoundly different market.
-
-I believe my extra-curriculars have also prepared me well for the kinds of work that Khan Academy is looking for. As the Vice President of my school's ACM chapter, I worked alongside my team to build hackathons and host tutorials on computer languages and technologies. Though it is a bit informal, I believe that through those experiences I have learned a lot about what it takes to create positive, engaging, and rich activities taht students want to participate in; I also believe that I could bring these insights to Khan Academy and help create more of these positive experiences.
-
-Khan Academy has a lot to offer me. Not only is it a chance to work on something with a grander impact, but the chance to learn from people in this space in the industry I think would be invaluable. I don't think it is possible to make a dent in the world if you don't aim to learn from the leaders of it. 
-
-Feel free to contact me in any way listed here or on my resume. I look forward to hearing from you! Thank you so much for your time.
-%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
-
-\makeletterclosing
-
+%\recipient{Khan Academy}{\\\\Mountain View, CA}
+%\date{March 8, 2016}
+%\opening{To whom it may concern,}
+%\closing{Best,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+%
+%My name is Roshan Ramankutty. I am a graduating senior at Santa Clara University studying Computer Science and Engineering and I'm looking for a Software Engineering internship this summer. It is a dream of mine to work in Software Engineering or Product/Content Design at Khan Academy. I may be a programmer, but I want to teach one day and I think Khan Academy leads the way in advancing education across the board. 
+%
+%I am confident that I am a good candidate for these positions because I have aimed to work in this space for some time - as a result, I have spent time working on projects that serve similar purposes to Khan Academy. As briefly mentioned in my resume, I'm working with a company to deploy educational services to spaces in rural Nepal. My experience working with this company has given me a strong understanding on how to work with others in larger engineering projects, as well as a strong understanding as to what constraints we work with when developing a product for a profoundly different market.
+%
+%I believe my extra-curriculars have also prepared me well for the kinds of work that Khan Academy is looking for. As the Vice President of my school's ACM chapter, I worked alongside my team to build hackathons and host tutorials on computer languages and technologies. Though it is a bit informal, I believe that through those experiences I have learned a lot about what it takes to create positive, engaging, and rich activities taht students want to participate in; I also believe that I could bring these insights to Khan Academy and help create more of these positive experiences.
+%
+%Khan Academy has a lot to offer me. Not only is it a chance to work on something with a grander impact, but the chance to learn from people in this space in the industry I think would be invaluable. I don't think it is possible to make a dent in the world if you don't aim to learn from the leaders of it. 
+%
+%Feel free to contact me in any way listed here or on my resume. I look forward to hearing from you! Thank you so much for your time.
+%%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+%
+%\makeletterclosing
+%
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
 
