@@ -1,7 +1,7 @@
 \documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
-\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 \renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
@@ -13,7 +13,7 @@
 % adjust the page margins
 \usepackage[scale=0.95]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \name{Roshan}{Ramankutty}
@@ -24,7 +24,7 @@
 \email{roshan@tzeak.com}                               % optional, remove / comment the line if not wanted
 \homepage{www.tzeak.com}                         % optional, remove / comment the line if not wanted
 \extrainfo{LinkedIn: www.linkedin.com/in/tzeak}                 % optional, remove / comment the line if not wanted
-\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -82,14 +82,14 @@
 	\cventry{April 2015--September 2018}{Co-founder}{Tzeak, LLC}{Pleasanton, CA}{}{
 		\begin{itemize}
 			\item Small vehicle for freelance consultant projects
-			\item Learned how to manage burn-rate of a company and maintain multiple project management suites
+			%\item Learned how to manage burn-rate of a company and maintain multiple project management suites
 			\item Latest project: Implementing ML Platforms like Apache PredictionIO and Salesforce Einstein for supply chain management
 			\newline
 		\end{itemize}
 	}
 	\cventry{July 2015--September 2016}{Volunteer Developer}{VillageTech Solutions}{Menlo Park, CA}{}{Developed lesson-planning software for Looma, VillageTech Solution frugal all-in-one computer built for rural schools in Nepal.{}%
 		\begin{itemize}%
-			\item Taught team how to use tools like LaTeX (used for this résumé!), git/github, and MongoDB
+			%\item Taught team how to use tools like LaTeX (used for this résumé!), git/github, and MongoDB
 			\item Organized bi-weekly team meetings and deliverables with VillageTech Solutions and the team
 			\item Learned HTML/CSS and Javascript to provide support for Web Engineers on the project - resulted in teaching team some modern web design concepts
 			\item Presented and published a paper on the impact at the IEEE: GHTC conference in San Jose, CA in 2018
@@ -99,7 +99,7 @@
 	\cventry{2014--2016}{Undergraduate Research Assistant}{SCU Frugal Innovation Lab}{Santa Clara University}{}{
 			Developed a short string compression algorithm for social enterprises in Ghana {}%
 		\begin{itemize}
-			\item Determined an ideal compression of up to 80\% smaller messages
+			%\item Determined an ideal compression of up to 80\% smaller messages
 			\item Coordinated with social enterprises to collect data and understand the market need
 			\item Presented and published a paper and poster at the ACMDEV conference in Nairobi, Kenya
 			\newline
@@ -109,16 +109,16 @@
 		\begin{itemize}%
 			\item Organized the first three SCU Hackathons in conjunction with social enterprises like San Jose's Community Technology Alliance, working with Microsoft, Google, and Western Digital
 			\item Built chapter up from 10 students to over 200 active members
-			\item Established relationships with grad programs in UC Santa Barbara and UC Santa Cruz
+			%\item Established relationships with grad programs in UC Santa Barbara and UC Santa Cruz
 			\item Actively involved with ACM-W, the sister chapter that focuses on women's issues in the tech industry
 		\end{itemize}
 	}
-	\cventry{February 2017--Present}{Volunteer}{CACE: Center for Civic Education}{San Francisco, CA}{}{
-		\begin{itemize}
-		\item Volunteer as a regional judge for We the People: a national competitive civics competition
-		\item Helped Foothill High School and Amador Valley High School reach second and fourth place respectively at national competition in Washington, D.C.
-		\end{itemize}
-	}
+	%\cventry{February 2017--Present}{Volunteer}{CACE: Center for Civic Education}{San Francisco, CA}{}{
+	%	\begin{itemize}
+	%	\item Volunteer as a regional judge for We the People: a national competitive civics competition
+	%	\item Helped Foothill High School and Amador Valley High School reach second and fourth place respectively at national competition in Washington, D.C.
+	%	\end{itemize}
+	%}
 	%\cventry{June--November 2015}{Developer}{Idealyst, Inc.}{Santa Clara, CA}{}{Startup designing R\&D project management tool{}%
 	%	\begin{itemize}%
 	%		\item Designed unique media viewer for base platform, resulting in a significant and positive change in user interaction
@@ -134,8 +134,8 @@
 \cvitem{October 2018}{Lesson Planner for Rural Nepal - IEEE GHTC: Global Humanitarian Technology Conference}
 \newline
 \cvitem{November 2016}{Compressing SMS Messages for Lowering Communication Costs in Rural Africa - ACM DEV: Symposium on Computing for Development}
-\subsection{Relevant Coursework}
-\cvitem{}{Data Structures, Programming Languages (Pascal, Python, Scala, Scheme, Ruby, Prolog), Real-Time Systems, Numerical Analysis, Web Programming, Operating Systems, Networks, Compilers, Computer Graphics Course (Ohlone College), Machine Learning}
+%\subsection{Relevant Coursework}
+%\cvitem{}{Data Structures, Programming Languages (Pascal, Python, Scala, Scheme, Ruby, Prolog), Real-Time Systems, Numerical Analysis, Web Programming, Operating Systems, Networks, Compilers, Computer Graphics Course (Ohlone College), Machine Learning}
 %\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
 
 
@@ -147,7 +147,7 @@
 \section{Skills}
 	\cvitem{Languages}{Python, React.js/React Native, Java, C/C++, Swift, PHP, Oracle SQL, MongoDB}
 	%\cvitem{Operating Systems}{Windows, OS X, iOS, Android, CentOS Linux}
-	\cvitem{Applications}{AWS Lambda, Jenkins, Vim/*NIX tools, LaTeX, Xcode/Intellij, Adobe Illustrator}
+	\cvitem{Applications}{AWS Lambda, Jenkins, Vim/*NIX tools, LaTeX, Xcode/Intellij/PyCharm, Adobe Illustrator}
 	\cvitem{Soft Skills}{Great at parties!}
 
 %\section{Interests}
